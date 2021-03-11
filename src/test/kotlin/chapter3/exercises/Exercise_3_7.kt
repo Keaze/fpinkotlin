@@ -48,9 +48,9 @@ object Exercise_3_7 {
 
 fun main() {
     // tag::init[]
-    foldRight(
+    print(foldRight(
         List.of(1, 2, 3),
         List.empty<Int>(),
-        { x, y -> Cons(x, y) })
+        { x, y -> Cons(x, y) }))
     // end::init[]
 }
